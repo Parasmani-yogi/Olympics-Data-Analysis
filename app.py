@@ -57,11 +57,29 @@ if user_menu == 'Medal Tally':
             """
         )
 
+
+
+
+###################### !!!!!!!!!!!!!!!!! Correction !!!!!!!!!!!!!!!!!!!!!!!!!!!!###########################################3
     # Top Sports for Selected Country
     if selected_country != 'Overall' and selected_year == 'Overall':
         st.subheader(f"{selected_country} Top Sports by Medals")
-        temp_df = df[df['region'] == selected_country].dropna(subset=['Medal'])
-        sport_medals = temp_df.groupby('Sport')['Medal'].count().sort_values(ascending=False).head(10).reset_index()
+
+        temp_df = df.drop_duplicates(
+            subset=['Team', 'NOC', 'Games', 'Year', 'City', 'Sport', 'Event', 'Medal']
+        )
+
+        temp_df = temp_df[temp_df['region'] == selected_country].dropna(subset=['Medal'])
+
+        sport_medals = (
+            temp_df.groupby('Sport')['Medal']
+            .count()
+            .sort_values(ascending=False)
+            .head(10)
+            .reset_index()
+        )
+
+
         fig = px.bar(sport_medals, x='Sport', y='Medal', color='Medal')
         fig.update_layout(
             xaxis_tickangle=90,
@@ -69,12 +87,18 @@ if user_menu == 'Medal Tally':
             xaxis_title="Sport"
         )
         st.plotly_chart(fig)
+
         st.markdown(
-        """
-        This plot shows the **top 10 sports where the selected country won the most medals**.  
-        Taller bars indicate sports in which the country has been most successful historically.
-        """
-    )
+            """
+            This plot shows the **top 10 sports where the selected country won the most medals**.  
+            Team event duplicates have been removed, so the medal counts here are accurate.  
+            Taller bars indicate sports in which the country has been most successful historically.
+            """
+        )
+    ###################### !!!!!!!!!!!!!!!!! Correction !!!!!!!!!!!!!!!!!!!!!!!!!!!!###########################################3
+
+
+
 
     # Top 10 Countries for Selected Year
     if selected_year != 'Overall' and selected_country == 'Overall':
@@ -107,7 +131,6 @@ if user_menu == 'Overall Analysis':
     cities = df['City'].unique().shape[0]
     sports = df['Sport'].unique().shape[0]
     events = df['Event'].unique().shape[0]
-    cities = df['City'].unique().shape[0]
     athletes = df['Name'].unique().shape[0]
     nations = df['region'].unique().shape[0]
 
