@@ -16,7 +16,7 @@ df = preprocessor.preprocess(df,region_df)
 
 
 st.sidebar.title("Olympics Analysis")
-st.sidebar.image('image.png')
+st.sidebar.image('logo_image.png')
 user_menu = st.sidebar.radio(
     'Select an Option',
     ('Medal Tally','Overall Analysis', 'Country wise Analysis','Athlete wise Analysis','Sport wise Analysis')
