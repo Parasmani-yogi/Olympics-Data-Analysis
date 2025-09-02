@@ -16,7 +16,7 @@ df = preprocessor.preprocess(df,region_df)
 
 
 st.sidebar.title("Olympics Analysis")
-st.sidebar.image('logo_image.png')
+st.sidebar.image('image.png')
 user_menu = st.sidebar.radio(
     'Select an Option',
     ('Medal Tally','Overall Analysis', 'Country wise Analysis','Athlete wise Analysis','Sport wise Analysis')
@@ -60,7 +60,7 @@ if user_menu == 'Medal Tally':
 
 
 
-###################### !!!!!!!!!!!!!!!!! Correction !!!!!!!!!!!!!!!!!!!!!!!!!!!!###########################################3
+
     # Top Sports for Selected Country
     if selected_country != 'Overall' and selected_year == 'Overall':
         st.subheader(f"{selected_country} Top Sports by Medals")
@@ -95,7 +95,7 @@ if user_menu == 'Medal Tally':
             Taller bars indicate sports in which the country has been most successful historically.
             """
         )
-    ###################### !!!!!!!!!!!!!!!!! Correction !!!!!!!!!!!!!!!!!!!!!!!!!!!!###########################################3
+
 
 
 
