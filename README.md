@@ -25,27 +25,26 @@ A **Streamlit web application** has been developed for an intuitive interface, a
 
 ---
 
-## Installation and Usage
+## How to Run
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/Parasmani-yogi/Olympics-Data-Analysis.git
-cd Olympics-Data-Analysis
-```
-
-### 2. Install Required Packages
+### Install Required Packages
 Ensure you have Python 3.8 or higher installed. Then, install the necessary dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-### 3.Run the Application Locally
+### Run the Application Locally
 Download the repository, then open the terminal and run the command `streamlit run app.py`. (Make sure Streamlit is installed; if not, run `pip install streamlit`.)
 
 
-### 4. AWS EC2 Deployment
+### AWS EC2 Deployment
 The application is deployed on **AWS EC2**. You can access it via the public IP address:
 
-[http://13.48.148.12:8080/](http://13.48.148.12:8080/)
+link : [http://13.48.148.12:8080/](http://13.48.148.12:8080/)
 
+---
+### ## Dataset
+The dataset used in this project is sourced from Kaggle's **120 Years of Olympic History: Athletes and Results**:
+
+link : [https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results](https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results)
 
 
