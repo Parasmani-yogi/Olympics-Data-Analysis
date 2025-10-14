@@ -1,7 +1,7 @@
-# Olympic Analysis
+# Olympics-Data-Analysis
 
 ## Overview
-This project provides an interactive analysis of the Summer Olympics dataset.  
+This project includes the analysis of the Summer Olympics until 2016.  
 Using Python libraries such as **Pandas**, **NumPy**, **Seaborn**, and **Plotly**, the project explores historical performance trends across countries, athletes, and sports.  
 
 A **Streamlit web application** has been developed for an intuitive interface, and the app is also deployed on **AWS EC2** for online access.
@@ -24,6 +24,28 @@ A **Streamlit web application** has been developed for an intuitive interface, a
 - **Deployment:** AWS EC2  
 
 ---
+
+## Installation and Usage
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Parasmani-yogi/Olympics-Data-Analysis.git
+cd Olympics-Data-Analysis
+```
+
+### 2. Install Required Packages
+Ensure you have Python 3.8 or higher installed. Then, install the necessary dependencies:
+```bash
+pip install -r requirements.txt
+```
+### 3.Run the Application Locally
+Download the repository, then open the terminal and run the command `streamlit run app.py`. (Make sure Streamlit is installed; if not, run `pip install streamlit`.)
+
+
+### 4. AWS EC2 Deployment
+The application is deployed on **AWS EC2**. You can access it via the public IP address:
+
+[http://13.48.148.12:8080/](http://13.48.148.12:8080/)
 
 
 
