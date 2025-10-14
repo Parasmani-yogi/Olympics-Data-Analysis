@@ -1,7 +1,7 @@
 # Olympic Analysis
 
 ## Overview
-This project provides an interactive analysis of the Summer Olympics dataset (up to 2016).  
+This project provides an interactive analysis of the Summer Olympics dataset.  
 Using Python libraries such as **Pandas**, **NumPy**, **Seaborn**, and **Plotly**, the project explores historical performance trends across countries, athletes, and sports.  
 
 A **Streamlit web application** has been developed for an intuitive interface, and the app is also deployed on **AWS EC2** for online access.
@@ -25,10 +25,5 @@ A **Streamlit web application** has been developed for an intuitive interface, a
 
 ---
 
-## Installation and Usage
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/<your-username>/Olympic_Analysis.git
-cd Olympic_Analysis
 
