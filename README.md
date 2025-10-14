@@ -39,12 +39,12 @@ Download the repository, then open the terminal and run the command `streamlit r
 ### AWS EC2 Deployment
 The application is deployed on **AWS EC2**. You can access it via the public IP address:
 
-link : [http://13.48.148.12:8080/](http://13.48.148.12:8080/)
+[http://13.48.148.12:8080/](http://13.48.148.12:8080/)
 
 ---
-### ## Dataset
+### Dataset
 The dataset used in this project is sourced from Kaggle's **120 Years of Olympic History: Athletes and Results**:
 
-link : [https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results](https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results)
+Dataset link : [https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results](https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results)
 
 
