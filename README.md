@@ -33,7 +33,11 @@ Ensure you have Python 3.8 or higher installed. Then, install the necessary depe
 pip install -r requirements.txt
 ```
 ### Run the Application Locally
-Download the repository, then open the terminal and run the command `streamlit run app.py`. (Make sure Streamlit is installed; if not, run `pip install streamlit`.)
+Download the repository, then open the terminal and run the command 
+```bash
+streamlit run app.py
+```
+(Make sure Streamlit is installed; if not, run `pip install streamlit`.)
 
 
 ### AWS EC2 Deployment
