@@ -54,7 +54,10 @@ Dataset link : [https://www.kaggle.com/heesoo37/120-years-of-olympic-history-ath
 
 ---
 ### Demo Images
-<img width="1639" height="603" alt="image" src="https://github.com/user-attachments/assets/78e8e2a1-d332-4ca8-9342-05219d89f00c" />
+
+![Uploading image.png…]()
+
+---
 
 ![Uploading image.png…]()
 
