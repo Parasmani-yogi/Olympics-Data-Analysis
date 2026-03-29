@@ -52,14 +52,7 @@ The dataset used in this project is sourced from Kaggle's **120 Years of Olympic
 Dataset link : [https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results](https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results)
 
 
----
-### Demo Images
 
-![Uploading image.png…]()
-
----
-
-![Uploading image.png…]()
 
 
 
