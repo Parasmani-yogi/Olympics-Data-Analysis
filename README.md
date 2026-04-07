@@ -13,7 +13,7 @@ A **Streamlit web application** has been developed for an intuitive interface, a
 - Country-wise insights to compare Olympic achievements across nations.  
 - Athlete-wise analysis to study performance trends by athletes and gender.  
 - Sport-wise trends to explore the evolution of different sports over time.  
-- Deployed on AWS EC2 for global accessibility.
+- Deployed on Streamlit Cloud for global accessibility.
 
 ---
 
@@ -21,7 +21,7 @@ A **Streamlit web application** has been developed for an intuitive interface, a
 - **Language:** Python  
 - **Libraries:** Pandas, NumPy, Seaborn, Plotly, Matplotlib  
 - **Framework:** Streamlit  
-- **Deployment:** AWS EC2  
+- **Deployment:**  Streamlit Cloud  
 
 ---
 
@@ -43,7 +43,7 @@ streamlit run app.py
 ### AWS EC2 Deployment
 The application is deployed on **AWS EC2**. You can access it via the public IP address:
 
-[http://13.48.148.12:8080/](http://13.48.148.12:8080/)
+[[http://13.48.148.12:8080/](http://13.48.148.12:8080/)](https://olympics-data-analysis-xgsjvtozih469ptbdjkavc.streamlit.app/)
 
 ---
 ### Dataset
