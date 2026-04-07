@@ -4,7 +4,7 @@
 This project includes the analysis of the Summer Olympics until 2016.  
 Using Python libraries such as **Pandas**, **NumPy**, **Seaborn**, and **Plotly**, the project explores historical performance trends across countries, athletes, and sports.  
 
-A **Streamlit web application** has been developed for an intuitive interface, and the app is also deployed on **AWS EC2** for online access.
+A **Streamlit web application** has been developed for an intuitive interface, and the app is also deployed on **Streamlit Cloud** for online access.
 
 ---
 
@@ -41,7 +41,7 @@ streamlit run app.py
 
 
 ### AWS EC2 Deployment
-The application is deployed on **AWS EC2**. You can access it via the public IP address:
+The application is deployed on **Streamlit Cloud**. You can access it via the public IP address:
 
 [[http://13.48.148.12:8080/](http://13.48.148.12:8080/)](https://olympics-data-analysis-xgsjvtozih469ptbdjkavc.streamlit.app/)
 
