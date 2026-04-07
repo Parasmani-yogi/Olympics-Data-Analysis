@@ -40,7 +40,7 @@ streamlit run app.py
 (Make sure Streamlit is installed; if not, run `pip install streamlit`.)
 
 
-### AWS EC2 Deployment
+### Streamlit Cloud Deployment
 The application is deployed on **Streamlit Cloud**. You can access it via the public IP address:
 
 [[http://13.48.148.12:8080/](http://13.48.148.12:8080/)](https://olympics-data-analysis-xgsjvtozih469ptbdjkavc.streamlit.app/)
